@@ -1,4 +1,4 @@
-package ca.mylaurier.badr3180_assignment1;
+package ca.mylaurier.badr3180_assignments;
 
 import org.junit.Test;
 

@@ -1,6 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">badr3180_Assignment1</string>
+    <string name="app_name">badr3180_Assignment</string>
     <string name="hello_message">Bonjour!</string>
     <string name="ButtonText">je suis dans un bouton</string>
+    <string name="LoginName">Connexion</string>
+    <string name="hintText">Identifiant</string>
+    <string name="Password">Mot de passe</string>
+    <string name="switchText">Qu\'est-ce que cela fait?</string>
+    <string name="radioButton">Bouton radio</string>
+    <string name="checkBox">Case à cocher</string>
 </resources>

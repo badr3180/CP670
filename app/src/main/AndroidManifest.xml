@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    package="ca.mylaurier.badr3180_assignment1">
+    package="ca.mylaurier.badr3180_assignments">
 
     <application
         android:allowBackup="true"
@@ -14,7 +14,18 @@
         android:theme="@style/Theme.Badr3180_Assignment1"
         tools:targetApi="31">
         <activity
-            android:name=".MainActivity"
+            android:name="ca.mylaurier.badr3180_assignments.ListItemsActivity"
+            android:exported="true" >
+
+        </activity>
+        <activity
+            android:name="ca.mylaurier.badr3180_assignments.LoginActivity"
+            android:exported="true" >
+
+        </activity>
+
+        <activity
+            android:name="ca.mylaurier.badr3180_assignments.MainActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
