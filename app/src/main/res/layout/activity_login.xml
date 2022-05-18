@@ -18,7 +18,7 @@
         android:layout_height="wrap_content"
         android:ems="10"
         android:hint="@string/hintText"
-        android:inputType="textWebEmailAddress"
+        android:inputType="textEmailAddress"
         android:minHeight="48dp"
         android:text="@string/hintText" />
 
