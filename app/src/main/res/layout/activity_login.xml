@@ -19,8 +19,7 @@
         android:ems="10"
         android:hint="@string/hintText"
         android:inputType="textEmailAddress"
-        android:minHeight="48dp"
-        android:text="@string/hintText" />
+        android:minHeight="48dp" />
 
     <TextView
         android:id="@+id/textView3"
@@ -36,5 +35,12 @@
         android:inputType="textPassword"
         android:minHeight="48dp"
         tools:ignore="SpeakableTextPresentCheck" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="login"
+        android:text="@string/LoginName" />
 
 </LinearLayout>
