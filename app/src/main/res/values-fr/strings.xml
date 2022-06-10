@@ -18,4 +18,7 @@
     <string name="switch_Off">L\'interrupteur est éteint</string>
     <string name="switch_on">L\'interrupteur est activé</string>
     <string name="response">Voici ma réponse</string>
+    <string name="chatBTN">Démarrer la discussion</string>
+    <string name="chatMSGHint">saisir le message</string>
+    <string name="Send">Envoyer</string>
 </resources>

@@ -17,5 +17,9 @@
     <string name="switch_Off">Switch is OFF</string>
     <string name="switch_on">Switch is ON</string>
     <string name="response">Here is my response</string>
+    <string name="chatBTN">Start Chat</string>
+    <string name="chatMSGHint">enter message</string>
+    <string name="Send">Send</string>
+
 
 </resources>

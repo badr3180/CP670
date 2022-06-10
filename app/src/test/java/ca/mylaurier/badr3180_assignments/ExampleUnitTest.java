@@ -11,7 +11,12 @@ import static org.junit.Assert.*;
  */
 public class ExampleUnitTest {
     @Test
-    public void addition_isCorrect() {
-        assertEquals(4, 2 + 2);
+    public void onCreate() {
+        assertNotNull(MainActivity.ACTIVITY_NAME);
     }
+    @Test
+    public void onIntentStartChar(){
+        assertNotNull(ChatWindow.ACTIVITY_NAME);
+    }
+
 }
