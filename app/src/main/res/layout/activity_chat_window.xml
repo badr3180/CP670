@@ -28,7 +28,10 @@
         android:layout_alignParentBottom="true"
         android:layout_toStartOf="@id/sendButton"
         android:hint="@string/chatMSGHint"
-        android:minHeight="48dp"/>
+        android:inputType="text"
+        android:minHeight="48dp"
+        android:textColorHint="#757575"
+        android:importantForAutofill="no" />
     <Button
         android:id="@+id/sendButton"
         android:layout_width="wrap_content"
