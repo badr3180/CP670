@@ -60,6 +60,17 @@ public class MainActivity extends AppCompatActivity {
                         , ChatWindow.class));
             }
         });
+
+        Button toolBarBTN = findViewById(R.id.toolBarBtn);
+        toolBarBTN.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Log.i(ACTIVITY_NAME, "User clicked Test Toolbar");
+                // The launcher with the Intent you want to start
+                mStartForResult.launch(new Intent(MainActivity.this
+                        , TestToolbar.class));
+            }
+        });
     }
 
     @Override

@@ -21,4 +21,24 @@
     <string name="chatBTN">Démarrer la discussion</string>
     <string name="chatMSGHint">saisir le message</string>
     <string name="Send">Envoyer</string>
+    <string name="ToolbarBTN">Barre d\'outils de test</string>
+    <string name="title_activity_test_toolbar">Barre d\'outils de test</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+    <string name="about_toast">Version 1.0, par Roshan</string>
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="about">À propos de</string>
+    <string name="option1snack">Vous avez sélectionné l\'article 1</string>
+    <string name="floating_snack">Devoir 2 Snackbar à boutons flottants</string>
+    <string name="custom_dialog_title">Voulez-vous revenir en arrière ?</string>
+    <string name="Yes">Oui</string>
+    <string name="No">Non</string>
+    <string name="ivalid_email">Email invalide</string>
+    <string name="invalid_pwd">Mot de passe invalide ou vide</string>
+    <string name="null_field">Field cannot be empty</string>
+
 </resources>

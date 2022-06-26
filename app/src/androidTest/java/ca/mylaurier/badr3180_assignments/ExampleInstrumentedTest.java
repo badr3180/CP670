@@ -23,4 +23,5 @@ public class ExampleInstrumentedTest {
         Context appContext = InstrumentationRegistry.getInstrumentation().getTargetContext();
         assertEquals("ca.mylaurier.badr3180_assignment1", appContext.getPackageName());
     }
+
 }
