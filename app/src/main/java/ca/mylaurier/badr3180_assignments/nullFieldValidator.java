@@ -9,7 +9,7 @@ public class nullFieldValidator implements TextWatcher{
         return mIsValid;
     }
     public static boolean isValidtext(CharSequence pwd) {
-        return pwd != null && pwd != "";
+        return pwd.toString().trim().length() > 0 && pwd != "";
     }
     @Override
     final public void afterTextChanged(Editable editableText) {

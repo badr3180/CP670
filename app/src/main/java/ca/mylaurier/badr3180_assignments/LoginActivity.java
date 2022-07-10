@@ -52,7 +52,7 @@ public class LoginActivity extends AppCompatActivity {
         SharedPreferences.Editor myEditor = myPrefs.edit();
         currentEmail = myPrefs.getString("EmailKey","");
         passwordValue = passWordText.getText().toString();
-        Log.i("pedtst", passwordValue);
+        Log.i("PasswordValue", passwordValue);
         myEditor.clear();
         String new_email_entered = mEmailText.getText().toString();
         if(new_email_entered.equals(currentEmail) || new_email_entered.equals("email@domain.com")){

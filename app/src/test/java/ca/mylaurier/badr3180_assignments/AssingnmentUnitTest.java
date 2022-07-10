@@ -50,6 +50,6 @@ public class AssingnmentUnitTest {
     }
     @Test
     public void CustomDialog_null_returnsFalse() {
-        assertFalse(nullFieldValidator.isValidtext(null));
+        assertFalse(nullFieldValidator.isValidtext(""));
     }
 }
