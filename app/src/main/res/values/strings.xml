@@ -40,6 +40,9 @@
     <string name="ivalid_email">Invalid Email</string>
     <string name="invalid_pwd">Invalid  or empty Password</string>
     <string name="null_field">Field cannot be empty</string>
+    <string name="WeatherForecast">"WeatherForecast "</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="showurl">ShowURL</string>
 
 
 </resources>

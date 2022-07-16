@@ -71,6 +71,17 @@ public class MainActivity extends AppCompatActivity {
                         , TestToolbar.class));
             }
         });
+
+        Button weatherForecastBTN = findViewById(R.id.weatherforecastBTN);
+        weatherForecastBTN.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Log.i(ACTIVITY_NAME, "User clicked weatherForecast");
+                // The launcher with the Intent you want to start
+                mStartForResult.launch(new Intent(MainActivity.this
+                        , WeatherForecast.class));
+            }
+        });
     }
 
     @Override
