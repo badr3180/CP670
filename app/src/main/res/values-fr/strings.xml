@@ -42,5 +42,8 @@
     <string name="null_field">Le champ ne peut pas être vide</string>
     <string name="WeatherForecast">"Prévisions météorologiques"</string>
     <string name="showurl">AfficherURL</string>
+    <string name="delete_this_message">DELETE THIS MESSAGE</string>
+    <string name="MessageHere">Message Here</string>
+    <string name="id">ID=</string>
 
 </resources>

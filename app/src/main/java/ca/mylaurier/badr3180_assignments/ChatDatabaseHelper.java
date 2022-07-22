@@ -1,6 +1,7 @@
 package ca.mylaurier.badr3180_assignments;
 
 import android.content.Context;
+import android.database.Cursor;
 import android.database.SQLException;
 import android.database.sqlite.SQLiteDatabase;
 import android.database.sqlite.SQLiteOpenHelper;
@@ -59,5 +60,12 @@ public class ChatDatabaseHelper extends SQLiteOpenHelper {
     public void close() {
         db.close();
         Log.i(CLASS_NAME, "DataBase Closed");
+    }
+
+    public void deleteItem(long ID) {
+        Log.i("At Delete", String.valueOf(ID));
+        db.delete(TABLE_NAME, KEY_ID
+                + " = " + ID, null);
+        Log.i(CLASS_NAME, "deleted item "+ID);
     }
 }

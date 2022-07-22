@@ -43,6 +43,11 @@
     <string name="WeatherForecast">"WeatherForecast "</string>
     <!-- TODO: Remove or change this placeholder text -->
     <string name="showurl">ShowURL</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="delete_this_message">DELETE THIS MESSAGE</string>
+    <string name="MessageHere">Message Here</string>
+    <string name="id">ID=</string>
 
 
 </resources>
